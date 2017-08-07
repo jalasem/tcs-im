@@ -1,0 +1,168 @@
+/*
+    Author: Ajala AbdulSamii Olalekan
+    Email: kgasta@gmail.com
+    Github: github.com/jalasem
+    Note: I have written some custom css here to help you through your design
+*/
+
+body {
+    overflow-y: hidden;
+}
+
+nav>.container {
+    width: 95%;
+}
+
+/*font size adjustments
+    in your html you can use them for icons and text
+    e.g <i class="icon ion-social-facebook x15"></i> to adjut the font-size of the icon to 1.5rem
+*/
+.x1 {
+    font-size: 1rem;
+}
+.x15 {
+    font-size: 1.5rem;
+}
+.x2 {
+    font-size: 2rem;
+}
+.x25 {
+    font-size: 2.5rem;
+}
+.x3 {
+    font-size: 3rem;
+}
+.x35 {
+    font-size: 3.5rem;
+}
+.x4 {
+    font-size: 4rem;
+}
+.x45 {
+    font-size: 4.5rem;
+}
+.x5 {
+    font-size: 5rem;
+}
+.x55 {
+    font-size: 5.5rem;
+}
+
+ul.social i.icon {
+    margin-right: 1rem;
+}
+
+.no-marginBtm {
+    margin-bottom: 0 !important;
+}
+
+#rooms {
+    padding-right: 0;
+    padding-left: 0;
+    height: calc(100vh - 64px);
+    overflow-y: auto;
+}
+
+#rooms ul {
+
+}
+
+#rooms ul li {
+
+}
+
+#rooms ul li a {
+  padding: 0.5rem 1rem;
+  margin: 1px 0;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+}
+
+#users {
+    padding-right: 0;
+    padding-left: 0;
+    overflow-y: auto;
+    height: calc(100vh - 64px);
+}
+
+#users ul li a {
+  width: 100%;
+  text-align: center;
+  padding: 0.3rem;
+  margin: 1px 0;
+}
+
+.chats {
+    height: calc(100vh - 64px - 5rem);
+    overflow-y: auto;
+}
+
+#appArea {
+    padding-top: 0.5rem;
+    position: relative;
+}
+
+#users h4.heading, #rooms h4.heading {
+    font-size: 1rem;
+    text-align: center;
+}
+
+.chat.card {
+    background-color: #fff8e1 !important;
+    display: inline-block;
+    padding: 1rem;
+    margin: 0;
+    width: 100%;
+}
+
+/* .chat img {
+	border-radius: 50%;
+} */
+
+.chat .message {
+  margin-top: -14px;
+  margin-left: 1rem;
+}
+
+.chat .details {
+	margin-top: -1rem;
+}
+
+.chat .sender_username {
+	border-bottom: 1px solid teal;
+}
+
+.chat .sender_details {
+	font-weight: 300;
+}
+
+.chat .sender_message {
+  margin-top: -0.5rem;
+}
+
+/* #messageBox {
+  width: 97%;
+  height: 3.5rem;
+  position: absolute;
+  bottom: -4rem;
+} */
+
+#messageBox {
+  position: absolute;
+  bottom: -4rem;
+  height: 3.5rem;
+  background: white;
+  padding: 0;
+  right: 1%;
+	width: 98%;
+}
+
+#messageBox .col.input-field {
+  margin: 0;
+  padding-top: 2px;
+}
+
+#messageBox button.col {
+	height: 3.5rem;
+}
