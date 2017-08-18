@@ -99,7 +99,7 @@ ul.social i.icon {
 }
 
 #appArea {
-    padding-top: 0.5rem;
+    padding-top: 0.3rem;
     position: relative;
 }
 
@@ -111,9 +111,10 @@ ul.social i.icon {
 .chat.card {
     background-color: #fff8e1 !important;
     display: inline-block;
-    padding: 1rem;
+    padding: 0.6rem 1rem 0;
     margin: 0;
     width: 100%;
+    border-top: #efebe9 2px solid;
 }
 
 /* .chat img {
@@ -123,6 +124,10 @@ ul.social i.icon {
 .chat .message {
   margin-top: -14px;
   margin-left: 1rem;
+}
+
+.date.right {
+    font-weight: 300;
 }
 
 .chat .details {
@@ -165,4 +170,15 @@ ul.social i.icon {
 
 #messageBox button.col {
 	height: 3.5rem;
+}
+
+#indexContainer {
+    height: 100vh;
+    width: 100%;
+    padding-top: 10%;
+}
+
+#indexContainer .card-panel {
+    max-width: ;
+    padding: 2rem 2.5rem;
 }

@@ -1,23 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>TCS INTRANET</title>
-  <script src="/socket.io/socket.io.js"></script>
+  <title>TCS IM</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/ionicons.min.css">
+  <link rel="stylesheet" href="css/materialize.min.css">
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
 
-  <h1>TCS INTRANET</h1>
-  <h2>Message: <span id="message"></span></h2>
-  <h3>Test: <span id="test"></span></h3>
-  <h3>
-    <u>Broadcast:</u> <span id="broadcast"></span>
-  </h3>
-  <h2>New Client: <span id="newC"></span></h2>
+  <div id="indexContainer" class="row brown accent-3">
+    <div class="container">
+      <div class="card-panel col s12 m6 offset-m3 l4 offset-l4 center">
+        <h5 class="brown-text">Login to TCS IM</h5>
+        <form action="/chat.html">
+          <div class="input-field col s12">
+            <input name="name" type="text" id="username_login" required/>
+            <label for="username_login">Username/Matric</label>
+          </div>
+          <div class="input-field col s12 hide">
+            <input type="text" id="roomName" name="room" value="Lobby">
+            <label for="" id="roomName">Room name</label>
+          </div>
+          <button class="col s12 btn accent-2 brown">Enter</button>
+        </form>
+      </div>
+    </div>
+  </div>
 
-  <script src="/jquery/dist/jquery.js"></script>
-  <script src="js/app.js"></script>
+  <script src="js/jquery.min.js"></script>
+  <script src="js/materialize.min.js"></script>
 </body>
+
 </html>
